@@ -1,0 +1,30 @@
+#p1{
+    position:absolute;
+    top:0px;
+    left:0px;
+
+}
+#p2{
+    position:absolute;
+    bottom:500px;
+    right:800px;
+
+}
+.box {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+#p1 {
+    background-color: rgba(0, 0, 255, 0.7);
+    z-index: 1;
+}
+
+#p2 {
+    background-color: red;
+    
+}
+h1{
+    text-align:center;
+}
