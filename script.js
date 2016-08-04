@@ -34,15 +34,6 @@ $(document).ready(function() {
     var windowHeight = $(window).height();
     var windowWidth = $(window).width();
 
-    checkPlayer1 = function() {
-        var playerOffset1 = $('#p1').offset();
-    };
-
-    checkPlayer2 = function() {
-        var playerOffset2 = $('#p2').offset();
-    };
-
-
     $("body").keydown(function(event) {
         var collided = isCollided($("#p1"), $("#p2"));
         if (collided) {
