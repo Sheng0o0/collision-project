@@ -1,16 +1,3 @@
-var p = $("#player");
-var p2 = $("#player2");
-
-// function place(p, p2) {
-//     var ptl = p.offset();
-//     var ptr = p.offset().left + p.width();
-//     var pbl = p.offset().top + p.height();
-//     var pbr = p.offset.top + p.height();
-
-// }
-
-
-
 var isCollided = function collided(el1, el2) {
     var position1 = el1.offset();
     var height1 = el1.height();
